@@ -1,0 +1,141 @@
+body
+{
+    font-family: "LXGW WenKai Screen";
+    font-weight: normal;
+    background-color: #f6f5f3;
+}
+
+#title
+{
+    text-align: center;
+    font-size: 38px;
+    margin: 100px auto 5px auto;
+    transform: transform 0.3s;
+}
+#title:hover
+{
+    transform: translateY(-5px);
+}
+#title-link
+{
+    text-decoration: none;
+    color: black;
+}
+#subtitle
+{
+    text-align: center;
+    font-size: 20px;
+    margin: 5px auto 45px auto;
+}
+#line
+{
+    width: 45%;
+    color: black;
+}
+.header
+{
+    text-align: center;
+}
+.nav
+{
+    display: flex;
+    justify-content: center;
+}
+.nav ul
+{
+    display: flex; 
+    list-style: none;
+    padding: 0;
+}
+.nav li
+{
+    margin: 0 10px;
+}
+.nav ul li a
+{
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.nav ul li a:hover
+{
+    color: #1a6840;
+}
+
+.content
+{
+    font-size: 23px;
+    text-align: left;
+    margin: 35px 50px 50px 50px;
+    color: gray;
+}
+.content a
+{
+    text-decoration: none;
+    color: gray;
+}
+.content a:hover
+{
+    color: #1a6840;
+}
+
+/* 回到顶部 按钮 */
+.back-to-top
+{
+    font-size: 20px;
+    color: gray;
+    text-align: left;
+    margin-left: 50px;
+    position: none;
+    transition: all 0.3s ease;
+
+}
+.back-to-top a
+{
+    text-decoration: none;
+    color: gray;
+}
+.back-to-top a:hover
+{
+    color: #1a6840;
+}
+.back-to-top.active
+{
+    transform: translateY(-100%);
+}
+
+/* 页码指示器 */
+.page-indicator
+{
+    font-size: 20px;
+    color: gray;
+    display: flex;
+    margin-left: 50px;
+}
+.page-indicator a
+{
+    text-decoration: none;
+    color: gray;
+}
+.page-indicator a:hover
+{
+    color: #1a6840;
+}
+#page_up
+{
+    margin-right: 10px;
+}
+#page_num
+{
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+/* 版权信息 */
+#info
+{
+    margin-left: 50px;
+    color: black;
+}
