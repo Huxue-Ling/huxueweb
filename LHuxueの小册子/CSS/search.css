@@ -1,0 +1,93 @@
+body
+{
+    font-family: "LXGW WenKai Screen";
+    font-weight: normal;
+    background-color: #f6f5f3;
+}
+
+#title
+{
+    text-align: center;
+    font-size: 38px;
+    margin: 100px auto 5px auto;
+    transform: transform 0.3s;
+}
+#title:hover
+{
+    transform: translateY(-5px);
+}
+#title-link
+{
+    text-decoration: none;
+    color: black;
+}
+#subtitle
+{
+    text-align: center;
+    font-size: 20px;
+    margin: 5px auto 45px auto;
+}
+#line
+{
+    width: 45%;
+    color: black;
+}
+.header
+{
+    text-align: center;
+}
+.nav
+{
+    display: flex;
+    justify-content: center;
+}
+.nav ul
+{
+    display: flex; 
+    list-style: none;
+    padding: 0;
+}
+.nav li
+{
+    margin: 0 10px;
+}
+.nav ul li a
+{
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.nav ul li a:hover
+{
+    color: #1a6840;
+}
+
+.main
+{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.title
+{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.searchbtn
+{
+    margin-top: 5px;
+}
+
+.searchprompt
+{
+    font-size: 20px;
+    line-height: 0.5;
+}
+
+#info
+{
+    margin-left: 50px;
+    color: black;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浅谈手机ROOT的那些事儿</title>
+
+    <!-- 引入网络字体 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css" />
+    <!-- 引入外部样式表 -->
+    <link rel="stylesheet" href="浅谈手机ROOT的那些事儿.css">
+    <style></style>
+    <script></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 id="title"><a id="title-link" href="/LHuxueの小册子/MainPage/index.html">LHuxueの小册子</a></h1>
+        <h2 id="subtitle">Stay simple stay naive</h2>
+        <hr id="line" />
+        <!-- 导航栏 -->
+        <div class="nav">
+            <ul>
+                <li><a href="/LHuxueの小册子/HTML/navigation.html">导航</a></li>
+                <li><a href="/LHuxueの小册子/HTML/search.html">搜索</a></li>
+                <li><a href="/LHuxueの小册子/HTML/about.html">关于</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- 文章标题&标签 -->
+        <h1 class="title">浅谈手机ROOT的那些事儿</h1>
+        <br />
+        <p class="tags">标签：</p>
+        <div class="tags">
+            <span class="tag">手机</span>
+            <span class="tag">ROOT</span>
+        </div>
+        <p class="date">发布日期：2024-05-25</p>
+        <hr />
+
+        <!-- 文章目录 -->
+        <div class="catalog">
+            <h2 id="catalog_title">文章目录</h2>
+            <ul>
+                <li><a href="#ROOT">“ROOT"一词的由来</a></li>
+                <li><a href="#手机ROOT">什么是手机ROOT？</a></li>
+                <li><a href="#手机应该如何ROOT">手机应该如何ROOT？</a></li>
+                <li><a href="#手机ROOT的注意事项">手机ROOT的注意事项</a></li>
+                <li><a href="#最后">最后</a></li>
+            </ul>
+        </div>
+
+        <!-- 文章内容 -->
+        <article class="article">
+            <section>
+                <h2 id="ROOT">“ROOT"一词的由来</h2>
+                <p>说起root，大家应该都不陌生，或多或少接触过，但究竟什么是ROOT，又有什么用处呢？</p>
+            </section>
+            <section>
+                <h2 id="手机ROOT">什么是手机ROOT？</h2>
+                <p>手机ROOT（Rooting）是指获得手机系统最高权限的过程，可以让用户完全控制手机系统，类似于Windows系统中的管理员权限。ROOT后，用户可以安装、卸载、修改系统应用程序，甚至可以修改系统设置。ROOT的风险主要来自于安全问题，一旦ROOT，手机系统的安全性将大幅降低。</p>
+                <p>ROOT的使用场景主要有以下几种：</p>
+                <ul>
+                    <li>安装第三方软件</li>
+                    <li>卸载系统内置的应用程序</li>
+                    <li>修改系统设置</li>
+                    <li>恢复出厂设置</li>
+                    <li>刷机</li>
+                </ul>
+                <p>虽然ROOT可以为用户提供更多的自由度和控制权，但也伴随着安全风险。用户在决定是否ROOT前，应仔细权衡利弊。</p>
+                <h3>我还是不明白手机获取root权限有什么用？能讲得通俗一点吗？</h3>
+                <p>手机root后会有更多玩法，例如虚拟定位，它可以被用来骗过钉钉打卡；或者用XPosed模块来实现QQ的自动签到功能等等。总之，手机root后玩法更加多样化。</p>
+            </section>
+            <section>
+                <h2 id="手机应该如何ROOT">手机应该如何ROOT？</h2>
+                <p>在安卓6.0之前，那时候的系统漏洞满天飞，涌现出一大批获取root权限的应用。例如：360一键root、kingroot等。</p>
+                <img id="kingroot_img" src="kingroot.jpg" alt="kingroot">
+                <p>后来，随着安卓系统的不断更新，越来越多的系统漏洞被堵上。目前主流的root方案是Magisk、KernelSU、APatch等。其中，KernelSU和APatch是更先进的手机root方式，属于内核级root，除此之外的root软件获取的root权限都是传统的系统级root权限。</p>
+                <img id="magisk_img" src="magisk_banner.jpeg" alt="magisk">
+            </section>
+            <section>
+                <h2 id="手机ROOT的注意事项">手机ROOT的注意事项</h2>
+                <ol>
+                    <li>不要轻易ROOT，除非你真的很清楚自己在做什么。</li>
+                    <li>不要随意安装来自第三方的软件，除非你信任该软件的开发者。</li>
+                    <li>不要随意卸载系统内置的应用程序，除非你准备好救砖。</li>
+                    <li>不要随意修改系统设置，除非你清楚后果。</li>
+                    <li>不要随意刷机，除非你真的需要。</li>
+                    <li>不要随意刷入来历不明的模块，除非你信任该模块的开发者。</li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="最后">最后</h2>
+                <p><b>注意：</b>玩机有风险，刷机需谨慎。</p>
+                <p>想要了解更多关于root的知识，请点击下方链接了解。</p>
+                <a id="root_link" href="https://mp.weixin.qq.com/s/eF9izvazeSZ1bVxOcxamQg">维术：何为ROOT？</a>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <!-- 页脚信息 -->
+        <p id="info">Copyright © 2024 <i>LHuxue</i> , All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

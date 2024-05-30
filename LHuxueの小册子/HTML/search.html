@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索 - LHuxueの小册子</title>
+
+    <!-- 引入网络字体 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css" />
+    <!-- 引入外部样式表 -->
+    <link rel="stylesheet" href="../CSS/search.css">
+    <style></style>
+    <script>
+        function searchFunction() {
+            // 获取用户输入的关键词
+            var keyword = document.getElementById('search').value;
+            
+            // 这里可以添加执行搜索的逻辑，比如通过 AJAX 请求从服务器获取相关文章，然后将结果显示在页面上
+            
+            // 这里只是一个示例，将搜索关键词显示在页面上
+            document.getElementById('searchResults').innerHTML = '您搜索的关键词是：' + keyword;
+            
+            // 阻止表单默认提交行为
+            return false;
+        }
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 id="title"><a id="title-link" href="../MainPage/index.html">LHuxueの小册子</a></h1>
+        <h2 id="subtitle">Stay simple stay naive</h2>
+        <hr id="line" />
+        <!-- 导航栏 -->
+        <div class="nav">
+            <ul>
+                <li><a href="../HTML/navigation.html">导航</a></li>
+                <li><a href="../HTML/search.html">搜索</a></li>
+                <li><a href="../HTML/about.html">关于</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main">
+        <h1 class="title">搜索标题和文章内容</h1>
+        <form id="searchform" onsubmit="return searchFunction()" action="#" method="get">
+            <input type="text" name="search" id="search" placeholder="请输入关键字">
+            <br />
+            <button class="searchbtn" type="submit">搜索</button>
+            <input type="reset" value="重置">
+        </form>
+        <div class="searchprompt">
+            <p>搜索结果将显示在此处</p>
+            <p>注意：搜索功能目前尚未实现，还在设计中，敬请期待！</p>
+        </div>
+        <br />
+    </main>
+
+    <footer>
+        <!-- 页脚信息 -->
+        <p id="info">Copyright © 2024 <i>LHuxue</i> , All rights reserved.</p>
+    </footer>
+</body>
+</html>

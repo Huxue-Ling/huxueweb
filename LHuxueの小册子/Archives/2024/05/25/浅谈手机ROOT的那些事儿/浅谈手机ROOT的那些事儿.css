@@ -1,0 +1,167 @@
+body
+{
+    font-family: "LXGW WenKai Screen";
+    font-weight: normal;
+    background-color: #f6f5f3;
+}
+
+#title
+{
+    text-align: center;
+    font-size: 38px;
+    margin: 100px auto 5px auto;
+    transform: transform 0.3s;
+}
+#title:hover
+{
+    transform: translateY(-5px);
+}
+#title-link
+{
+    text-decoration: none;
+    color: black;
+}
+#subtitle
+{
+    text-align: center;
+    font-size: 20px;
+    margin: 5px auto 45px auto;
+}
+#line
+{
+    width: 45%;
+    color: black;
+}
+.header
+{
+    text-align: center;
+}
+.nav
+{
+    display: flex;
+    justify-content: center;
+}
+.nav ul
+{
+    display: flex; 
+    list-style: none;
+    padding: 0;
+}
+.nav li
+{
+    margin: 0 10px;
+}
+.nav ul li a
+{
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.nav ul li a:hover
+{
+    color: #1a6840;
+}
+
+.main
+{
+    margin: 35px 50px 50px 50px;
+}
+
+/* 文章标题&标签 */
+.title
+{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.tags
+{
+    margin-top: 0px;
+    height: 10px;
+}
+.tag
+{
+    color: red;
+    margin-bottom: 10px;
+    height: 10px;
+}
+
+/* 文章目录 */
+.catalog
+{
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+}
+.catalog ul li
+{
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.catalog ul li a
+{
+    color: gray;
+    text-decoration: none;
+}
+.catalog ul li a:hover
+{
+    color: #1a6840;
+}
+#catalog_title
+{
+    font-size: 20px;
+    font-weight: 100;
+}
+.article
+{
+    font-size: 20px;
+}
+h2
+{
+    font-size: 23px;
+    font-weight: 350;
+    margin-top: 30px;
+
+}
+h3
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+p
+{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+#kingroot_img
+{
+    height: 270px;
+    width: 167px;
+}
+#magisk_img
+{
+    height: 165px;
+    width: 350px;
+}
+
+#root_link
+{
+    color: gray;
+    text-decoration: none;
+}
+#root_link:hover
+{
+    color: #1a6840;
+}
+
+#info
+{
+    margin-left: 50px;
+    text-align: left;
+    color: black;
+}
