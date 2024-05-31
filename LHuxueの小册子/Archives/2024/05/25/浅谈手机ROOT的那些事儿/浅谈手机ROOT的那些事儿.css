@@ -1,4 +1,4 @@
-body
+
 {
     font-family: "LXGW WenKai Screen";
     font-weight: normal;
@@ -94,7 +94,6 @@ body
     border-color: gray;
     border-style: solid;
     border-width: 1px;
-    margin-left:10px;
 }
 .catalog ul li
 {
@@ -115,6 +114,7 @@ body
 {
     font-size: 20px;
     font-weight: 100;
+    margin-left:10px;
 }
 .article
 {
